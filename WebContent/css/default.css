@@ -1,0 +1,80 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  	margin-bottom: 50px;
+}
+
+#top {
+	width:100%;
+	height:130px;
+}
+#navi {
+	width:100%;
+	height:52px;
+}
+#content {
+	width:100%;
+	height:auto;
+	margin-top:30px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  line-height: 50px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.jumbotron {
+	margin-bottom:0;
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+}
+.errorMsg{
+	color:red;
+}
+.bg-default{
+	background-color:#eee;
+}
+.no-list{
+	height:370px !important;
+	text-align:center;
+	vertical-align:middle !important;
+	
+}
+.btn-gray{
+	background-color:#6a6d70;
+	color:#fff;
+}
+.board-path{
+	color: black;
+	font-size:15px;
+	
+}
+.detail .title{
+	font-size:20px;
+	font-weight:bold;
+}
+.detail .title-line{
+	padding: 0 10px;
+	font-size: 15px;
+}
+.detail .detail-content{
+	min-height:200px;
+	padding: 10px 10px;
+	border-top:1px solid #d4d5d6;
+	border-bottom:1px solid #d4d5d6;
+}
+.detail .detail-title{
+	margin-top:10px;
+	padding: 10px 15px;
+    border: 0;
+    border-top: 1px solid #d4d5d6;
+}
+.detail .write-info{
+	margin-bottom:10px;
+}
